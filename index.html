@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memorias Flash - Juan Manuel Parrado Escribano</title><!-- EDITAR CON EL CONTENIDO DE LA PAGINA -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/estilo.css">
+    <script src="https://kit.fontawesome.com/124366027a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="container">
+        <nav>
+            <div class="topnav" id="topnav">
+
+                <a href="#hero">Home</a>
+                <a href="#introduction">Introduction</a>
+                <a href="#historia">History</a>
+                <a href="#galeria">Tipos</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                       <button class="barras"><i class="fas fa-bars"></i></button></a>
+            </div>   
+        </nav>
+
+    <section id="hero">
+
+        <h1>Memorias Flash</h1>
+        <a href="https://youtu.be/xUvNCUvYiZs" target="_blank"><button id="calltoaction">Vamos a descubrir mas</button></a>
+
+        <!--BOTON DE SUBIDA-->
+
+        <a href="#container"><i class="fas fa-arrow-up" aria-hidden ="true"></i></a>
+       
+    </section>
+
+    <section id="introduction">
+
+        <h1>¿Qué son?</h1>
+        <img id= "usb" src="images/que son.jpg" alt="usb en una mesa">
+        <p>Una memoria flash es un tipo de dispositivo no volátil (no necesita el continuo suministro de corriente eléctrica para seguir almacenando la información).</p>
+        <p>Es una evolución al tipo de memorias anteriormente utilizadas en cuanto al aspecto económico y físico y en el aspecto de velocidad ya que pueden borrar y escribir en la misma operación</p>
+    </section>
+
+
+    <section id="historia">
+        <div class="mitad" id="izqda">
+            <h1>Creador</h1>
+            <p>El inventor de este tipo de memoria es Fujio Masuoka en 1984, se basó en las memorias EEPROM existentes en esa época creación fue presentada en la reunión de aparatos electrónicos de la IEEE.</p>
+            <img id="creador" src="images/Fujio Masuoka.jpg" alt="Fujio Masuoka creador de las memorias">
+        </div>
+        <div class="mitad" id="drcha">
+            <h1>¿Cómo avanzó?</h1>
+            <p>Entre los años 1994 y 1998, se desarrollaron los principales tipos de memoria que se conocen hoy, como son la SmartMedia o la CompactFlash.</p>
+            <p>En 1994 SanDisk comenzó a comercializar tarjetas de memoria(CompactFlash)</p>
+            <p>En 1998, la compañía Río comercializo el primer ‘Walkman’ aprovechando el modo de funcionamiento de SmartMedia solucionando el problema de los “saltos” provocados en el discman.</p>
+            <img id="compact" src="images/compactflash.jfif" alt="Compact Flash en la mano">
+        </div>
+        <div class="reset"></div>
+
+    </section>
+    <section class="galeria">
+    <div class="slideshow-container">
+        <h1>TIPOS</h1>
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 6</div>
+          <img src="images/SD.jpg" style="width:100%">
+          <div class="text">Tarjeta SD</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 6</div>
+          <img src="images/Xd-Picture-Card.jpg" style="width:100%">
+          <div class="text">XD Picture Card</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 6</div>
+          <img src="images/memory sticky.jpg" style="width:100%">
+          <div class="text">Memory Stick</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 6</div>
+            <img src="images/compactflash1.jpg" style="width:100%">
+            <div class="text">CompactFlash</div>
+          </div>
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 6</div>
+            <img src="/images/Smart_Media.jpg" style="width:100%">
+            <div class="text">SmartMedia</div>
+          </div>
+        <div class="mySlides fade">
+            <div class="numbertext">6 / 6</div>
+            <img src="/images//USB1.jpg" style="width:100%">
+            <div class="text">USB</div>
+          </div>
+      
+        <!-- botones para pasar -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- Los circulos -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+      </div>
+    </section>
+   <footer id=footer class="section">
+        <div class="footer-container">
+            <div class="fila">
+                <div class="columna">
+                    <h4>About me</h4>
+                    <ul>
+                        <li><a href="mailto:juanmanuel.parrado.fp@iescampanillas.com">Contact with me</a></li>
+                        <li><a href="https://github.com/juanmaparrado"><i class="fa fa-github" aria-hidden="true"></i>Juan Manuel Parrado Escribano</a></li>
+                    </ul>
+                </div>
+                <div class="columna">
+                    <h4>About the Highschool</h4>
+                    <ul>
+                        <a href="https://fp.iescampanillas.com/"><i class="fa fa-internet-explorer" aria-hidden="true"></i></a>
+                        <a href="https://github.com/IESCampanillas/indice-fp-ies-campanillas"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/fpiescampa"><i class="fa fa-twitter" aria-hidden="true"></i> </a>
+                    </ul>
+                </div>
+                <div class="columna">
+                    <h4>Description</h4>
+                    <p>I am an 18 year old boy studying web application development in Malaga.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+</script>
+<script>
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</body>
+</html> 
