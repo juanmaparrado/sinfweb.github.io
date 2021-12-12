@@ -4,11 +4,11 @@
 
 @font-face {
      font-family: titulos ;
-     src: url(fonts/LEMONMILK-BoldItalic.otf);
+     src: url(/fonts/LEMONMILK-BoldItalic.otf);
     }
 @font-face{
      font-family: texto;
-     src: url(fonts/libel-suit-rg.otf);
+     src: url(/fonts/libel-suit-rg.otf);
     }
 
 html{
@@ -163,15 +163,11 @@ nav{
 }
 
 /****************GALLERY**********************************/
-#galeria{
-    margin: auto;
-    padding: 4%;
-}
+
 .slideshow-container {
     width: 100%;
     position: relative;
     margin: auto;
-    padding: 4%;
   }
 .slideshow-container h1{
     text-align: center;
