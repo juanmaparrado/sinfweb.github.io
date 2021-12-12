@@ -59,7 +59,7 @@
         <div class="reset"></div>
 
     </section>
-    <section class="galeria">
+    <section id="galeria">
     <div class="slideshow-container">
         <h1>TIPOS</h1>
         <div class="mySlides fade">
@@ -139,6 +139,7 @@
     </footer>
 
 </div>
+
 <script>
     function myFunction() {
       var x = document.getElementById("myTopnav");
@@ -149,16 +150,17 @@
       }
     }
 </script>
+
 <script>
     var slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
+
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
+
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
