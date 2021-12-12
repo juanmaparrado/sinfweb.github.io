@@ -4,11 +4,11 @@
 
 @font-face {
      font-family: titulos ;
-     src: url(fuentes/LEMONMILK-BoldItalic.otf);
+     src: url(/fonts/LEMONMILK-BoldItalic.otf);
     }
 @font-face{
      font-family: texto;
-     src: url(fuentes/libel-suit-rg.otf);
+     src: url(/fonts/libel-suit-rg.otf);
     }
 
 html{
@@ -18,7 +18,6 @@ html{
 body{
     margin: 0;
     padding: 0;
-   /* background-color:#01090D;*/
    background-color: #F2ECE4;
 }
 #container{
@@ -61,7 +60,7 @@ nav{
 
 
 #hero{
-    background-image: url(images/PRINCIPAL.jpg);
+    background-image: url(/images/PRINCIPAL.jpg);
     background-size: cover;
     background-position: 100%;
     height:95vh ;
@@ -113,7 +112,6 @@ nav{
     padding: 8%;
     text-align: justify;
     border-top: 2px solid #594B3F;
-    
 }
 #introduction h1{
     font-family: titulos;
@@ -124,13 +122,9 @@ nav{
     width: 50%;
     float: left;
     margin: 15px;
-    
-    
 }
 
-
 /****************history section*******/
-
 
 #historia{
     font-family: texto;  
@@ -148,7 +142,6 @@ nav{
     width: 50%;
     float: left;
     padding:2%;
-    
 }
 .reset{
     clear: both;
@@ -166,16 +159,19 @@ nav{
 #compact{
     width: 100%;
     display: block ;
-    margin: auto;/*para centrar la img*/
+    margin: auto;
 }
 
 /****************GALLERY**********************************/
-
+#galeria{
+    margin: auto;
+    padding: 4%;
+}
 .slideshow-container {
     width: 100%;
     position: relative;
     margin: auto;
-    padding: 35px 4%;
+    padding: 4%;
   }
 .slideshow-container h1{
     text-align: center;
